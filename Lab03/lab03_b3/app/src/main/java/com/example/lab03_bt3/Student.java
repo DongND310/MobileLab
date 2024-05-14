@@ -1,41 +1,37 @@
 package com.example.lab03_bt3;
 
 public class Student {
-    private String _id;
-    private String _name;
+    private String code;
+    private String name;
     private String _class;
 
-    public Student(String _id, String _name, String _class) {
-        this._id = _id;
-        this._name = _name;
+    public Student(String code, String name, String _class) {
+        this.code = code;
+        this.name = name;
         this._class = _class;
     }
 
-    public Student() {
-
+    public String get_code() {
+        return code;
     }
 
-    public String getId() {
-        return _id;
+    public void set_code(String code) {
+        this.code = code;
     }
 
-    public void setId(String _id) {
-        this._id = _id;
+    public String get_name() {
+        return name;
     }
 
-    public String getName() {
-        return _name;
+    public void set_name(String name) {
+        this.name = name;
     }
 
-    public void setName(String _name) {
-        this._name = _name;
-    }
-
-    public String getSClass() {
+    public String get_class() {
         return _class;
     }
 
-    public void setMark(String _class) {
+    public void set_class(String _class) {
         this._class = _class;
     }
 }
