@@ -12,6 +12,7 @@
 * **LAB03:** SQLite
 * **LAB04:** Broadcast Receiver
 * **LAB05:** Multi-threading
+* **LAB06:** Animation
 
 ## ĐỒ ÁN CUỐI KÌ
 - Tên đề tài: Xây dựng ứng dụng MXH về short video
